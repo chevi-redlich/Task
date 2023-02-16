@@ -1,0 +1,99 @@
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\appsettings.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Tasks.exe
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Tasks.deps.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Tasks.runtimeconfig.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Tasks.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Tasks.pdb
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.csproj.AssemblyReference.cache
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfoInputs.cache
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfo.cs
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.Tasks.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.build.Tasks.props
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tasks.props
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tasks.props
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\scopedcss\bundle\Tasks.styles.css
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.csproj.CopyComplete
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\refint\Tasks.dll
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.pdb
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\Tasks.genruntimeconfig.cache
+C:\Users\Dell Vostro\Desktop\core\Tasks\obj\Debug\net7.0\ref\Tasks.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\appsettings.Development.json
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\appsettings.json
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Tasks.exe
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Tasks.deps.json
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Tasks.runtimeconfig.json
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Tasks.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Tasks.pdb
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\צביה\יד\core\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.csproj.AssemblyReference.cache
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfoInputs.cache
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfo.cs
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.csproj.CoreCompileInputs.cache
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cs
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cache
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.Tasks.Microsoft.AspNetCore.StaticWebAssets.props
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.build.Tasks.props
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tasks.props
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tasks.props
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets.pack.json
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets.build.json
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\staticwebassets.development.json
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\scopedcss\bundle\Tasks.styles.css
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.csproj.CopyComplete
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.dll
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\refint\Tasks.dll
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.pdb
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\Tasks.genruntimeconfig.cache
+D:\צביה\יד\core\Tasks\obj\Debug\net7.0\ref\Tasks.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\appsettings.json
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.exe
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.deps.json
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.runtimeconfig.json
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.pdb
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.csproj.AssemblyReference.cache
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfoInputs.cache
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfo.cs
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.Tasks.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.build.Tasks.props
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tasks.props
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tasks.props
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\scopedcss\bundle\Tasks.styles.css
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.csproj.CopyComplete
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.dll
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\refint\Tasks.dll
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.pdb
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.genruntimeconfig.cache
+C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\ref\Tasks.dll
