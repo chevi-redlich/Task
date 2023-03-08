@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.js",
+      "PackagePath": "staticwebassets\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Tasks.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Tasks.props",
+      "PackagePath": "build\\Tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Tasks.props",
+      "PackagePath": "buildMultiTargeting\\Tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Tasks.props",
+      "PackagePath": "buildTransitive\\Tasks.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
