@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\AmaticSC-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\AmaticSC-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\Blackout.otf",
+      "PackagePath": "staticwebassets\\fonts\\Blackout.otf"
+    },
+    {
       "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tRV79sZuONw8ed5IEmgI3nGFW/g5Y2r444oPbTL4Olc=",
+  "Hash": "2xvmQYSxVZXcktv/DwmtuWfo8ZqcqmF/pYCua7977A0=",
   "Source": "Tasks",
   "BasePath": "_content/Tasks",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\AmaticSC-Bold.ttf",
+      "SourceId": "Tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
+      "BasePath": "_content/Tasks",
+      "RelativePath": "fonts/AmaticSC-Bold.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\AmaticSC-Bold.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\Blackout.otf",
+      "SourceId": "Tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
+      "BasePath": "_content/Tasks",
+      "RelativePath": "fonts/Blackout.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\Blackout.otf"
+    },
     {
       "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\index.html",
       "SourceId": "Tasks",

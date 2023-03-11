@@ -79,7 +79,7 @@ function closeInput() {
 }
 
 function _displayCount(itemCount) {
-    const name = (itemCount === 1) ? 'pizza' : 'pizza kinds';
+    const name = (itemCount === 1) ? 'task' : 'tasks kinds';
 
     document.getElementById('counter').innerText = `${itemCount} ${name}`;
 }
