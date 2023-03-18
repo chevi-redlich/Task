@@ -99,3 +99,11 @@ C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\Tasks.genruntimeconfig.
 C:\Users\This_user\Desktop\core\2\Tasks\obj\Debug\net7.0\ref\Tasks.dll
 C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Tasks.staticwebassets.runtime.json
 C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\data\tasks.json
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\This_user\Desktop\core\2\Tasks\bin\Debug\net7.0\data\User.json
