@@ -11,7 +11,7 @@ public class LogService : ILogService
     }
     public void Log(LogLevel level, string message)
     {
-        using (var sr = new StreamWriter(filePath, true))
+        using (var sr = new StreamWriter(filePath, false))
         {
             sr.WriteLine(
                 $"{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} [{level}] {message}");

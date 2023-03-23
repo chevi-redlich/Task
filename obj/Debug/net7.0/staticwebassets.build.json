@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ijOs/vhVdoVgUhICwmxdLCyWJSlDPgNNHwRRAB/9gZY=",
+  "Hash": "lstX614sud+hWWcZyRnVQyrstJk0A56O+Zb9KyK4xII=",
   "Source": "Tasks",
   "BasePath": "_content/Tasks",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\users.js",
+      "SourceId": "Tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
+      "BasePath": "_content/Tasks",
+      "RelativePath": "users.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.js"
     }
   ]
 }
