@@ -11,7 +11,7 @@ namespace Tasks.Services;
     public static class UserTokenService
     {
         private static SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ"));
-        private static string issuer = "https://task-demo.com";
+        private static string issuer = "https://task.com";
         public static SecurityToken GetToken(List<Claim> claims) =>
             new JwtSecurityToken(
                 issuer,
@@ -27,7 +27,7 @@ namespace Tasks.Services;
                 ValidIssuer = issuer,
                 ValidAudience = issuer,
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ")),
-                ClockSkew = TimeSpan.Zero // remove delay of token when expire
+                ClockSkew = TimeSpan.Zero 
             };
 
         public static string WriteToken(SecurityToken token) =>

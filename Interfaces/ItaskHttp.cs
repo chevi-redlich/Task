@@ -8,7 +8,7 @@ namespace Tasks.Interface
     public interface ItaskInterfac
     {    
         
-        public  List<Task> GetAll();
+        public  List<Task> GetAll(string token);
 
         public Task Get(int id);
 

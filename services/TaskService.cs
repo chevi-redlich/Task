@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Tasks.Interface;
 using System.Text.Json;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Tasks.Services
 {   
@@ -27,7 +28,20 @@ namespace Tasks.Services
             }
         }
 
-        public List<Task> GetAll() => tasks;
+        public List<Task> GetAll(string tokenStr) {
+            List<Task> tasksForUser = new List<Task>();
+            string newToken = tokenStr.Split(' ')[1];
+            var token = new JwtSecurityToken(jwtEncodedString: newToken);
+            string id = token.Claims.First(c => c.Type == "id").Value;
+            List<Task> tasks=new List<Task>();
+            foreach (Task task in this.tasks)
+            {
+                if(task.userId.ToString()==id) {
+                    tasksForUser.Add(task);
+                }
+            }
+            return tasksForUser;
+        } 
         public  Task Get(int id)
         {
             var task = tasks.FirstOrDefault(t => t.Id == id);

@@ -15,7 +15,6 @@ public class UserService:IuserInterfac {
     {
         this.webHost = webHost;
         this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "User.json");
-        //this.filePath = webHost.ContentRootPath+@"/Data/Pizza.json";
         using (var jsonFile = File.OpenText(filePath))
         {
             users = JsonSerializer.Deserialize<List<User>>(jsonFile.ReadToEnd(),
@@ -25,21 +24,35 @@ public class UserService:IuserInterfac {
             });
         }
     }
-    public bool Login(User user) {
-        bool flag=false;
+    public User Login(User user) {
+        User userExist=null;
         
         foreach (User item in users)
         {
             if(item.Equals(user)){
-                flag=true;
-                System.Console.WriteLine("if in"); 
+                userExist=user;
             }  
         }
-        return flag;
-        // User myUser=users.Find(t=>t.Id==user.Id);
-        // if(user==null) {
-        //     return false;
-        // }
-        // return true;
+        return userExist;
+    }
+    public List<User> GetAll() => users;
+    public void Add(User user)
+    {
+        user.Id = users.Max(t => t.Id) + 1;
+        users.Add(user);
+        saveToFile();
+    }
+    public bool Delete(int id)
+    {
+        var user = users.FirstOrDefault(t => t.Id == id);
+        if (user == null)
+            return false;
+        users.Remove(user);
+        saveToFile();
+        return true;
+    }
+    private void saveToFile()
+    {
+        File.WriteAllText(filePath, JsonSerializer.Serialize(users));
     }
 }

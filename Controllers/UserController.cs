@@ -13,50 +13,57 @@ namespace Tasks.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AdminController : ControllerBase
+    public class UserController : ControllerBase
     {
         IuserInterfac userHttp;
-        public AdminController(IuserInterfac IuserHttp) { 
+        public UserController(IuserInterfac IuserHttp) { 
             this.userHttp=IuserHttp;
         }
 
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<String> Login([FromBody] User User)
+        public ActionResult<String> Login([FromBody] User user)
         {
-            bool Exists=userHttp.Login(User);
-            if(!Exists) {
+            User userExist=userHttp.Login(user);
+            if(userExist==null) {
                 return Unauthorized();
             }
             var claims = new List<Claim>();
-            if(User.isAdmin) {
+            if(user.isAdmin) {
                 claims.Add(new Claim("type", "Admin"));
             }
             else {
                 claims.Add(new Claim("type", "User"));
             }
-
+            claims.Add(new Claim("id",user.Id.ToString()));
+            claims.Add(new Claim("name", user.Name.ToString()));
             var token = UserTokenService.GetToken(claims);
 
             return new OkObjectResult(UserTokenService.WriteToken(token));
         }
-
-
-        // [HttpPost]
-        // [Route("[action]")]
-        // [Authorize(Policy = "Admin")]
-        // public IActionResult GenerateBadge([FromBody] Agent Agent)
-        // {
-        //     var claims = new List<Claim>
-        //     {
-        //         new Claim("type", "Agent"),
-        //         new Claim("ClearanceLevel", Agent.ClearanceLevel.ToString()),
-        //     };
-
-        //     var token = FbiTokenService.GetToken(claims);
-
-        //     return new OkObjectResult(FbiTokenService.WriteToken(token));
-        // }
+        
+        [HttpGet]
+        [Authorize(Policy = "Admin")]
+        public IEnumerable<User> Get()
+        {
+            return userHttp.GetAll();
+        }
+        
+        [HttpPost]
+        [Authorize(Policy = "Admin")]
+        public ActionResult Post(User user)
+        {
+            userHttp.Add(user);
+            return CreatedAtAction(nameof(Post), new { id = user.Id }, user);
+        }
+        [HttpDelete("{id}")]
+        [Authorize(Policy="Admin")]
+        public ActionResult Delete(int id)
+        {
+            if (!userHttp.Delete(id))
+                return NotFound();
+            return NoContent();
+        }
     }
 
 

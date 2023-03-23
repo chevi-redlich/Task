@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Tasks.Interface;
 
@@ -11,12 +12,15 @@ namespace Tasks.Controllers;
             this.TaskService=TaskService;
         }
         [HttpGet]
+        [Authorize(Policy = "User")]
         public IEnumerable<Task> Get()
         {
-            return TaskService.GetAll();
+            string token=Request.Headers.Authorization;
+            return TaskService.GetAll(token);
         }
 
         [HttpGet("{id}")]
+        [Authorize(Policy = "User")]
         public ActionResult<Task> Get(int id)
         {
             var p = TaskService.Get(id);
@@ -26,6 +30,7 @@ namespace Tasks.Controllers;
         }
 
         [HttpPost]
+        [Authorize(Policy = "User")]
         public ActionResult Post(Task task)
         {
             TaskService.Add(task);
@@ -33,6 +38,7 @@ namespace Tasks.Controllers;
         }
 
         [HttpPut("{id}")]
+        [Authorize(Policy = "User")]
         public ActionResult Put(int id, Task task)
         {
             if (! TaskService.Update(id, task))
@@ -41,6 +47,7 @@ namespace Tasks.Controllers;
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Policy = "User")]
         public ActionResult Delete (int id)
         {
             if (! TaskService.Delete(id))

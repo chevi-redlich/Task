@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\fonts\\Blackout.otf"
     },
     {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\html\\admin.html",
+      "PackagePath": "staticwebassets\\html\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\html\\user.html",
+      "PackagePath": "staticwebassets\\html\\user.html"
+    },
+    {
       "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

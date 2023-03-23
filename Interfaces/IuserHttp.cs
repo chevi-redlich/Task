@@ -7,6 +7,12 @@ namespace Tasks.Interface
     public interface IuserInterfac
     {
 
-        public bool Login(User user);
+        public User Login(User user);
+
+        public List<User> GetAll();
+
+        public void Add(User user);
+        
+        public bool Delete(int id);
     }
 }

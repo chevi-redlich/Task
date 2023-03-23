@@ -15,9 +15,9 @@ public class User {
     }
     public bool Equals(User user) {
         return
-        (this.Id==user.Id&&
+        (
         this.Name==user.Name&&
-        this.Password==user.Password&&
-        this.isAdmin==user.isAdmin);
+        this.Password==user.Password
+        );
     }
 }
