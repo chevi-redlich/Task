@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\admin.js",
+      "PackagePath": "staticwebassets\\admin.js"
+    },
+    {
       "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\AmaticSC-Bold.ttf",
       "PackagePath": "staticwebassets\\fonts\\AmaticSC-Bold.ttf"
     },
@@ -21,16 +25,16 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\logIn.js",
+      "PackagePath": "staticwebassets\\logIn.js"
+    },
+    {
       "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.css",
       "PackagePath": "staticwebassets\\site.css"
     },
     {
-      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.js",
-      "PackagePath": "staticwebassets\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\users.js",
-      "PackagePath": "staticwebassets\\users.js"
+      "Id": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\user.js",
+      "PackagePath": "staticwebassets\\user.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Tasks.Microsoft.AspNetCore.StaticWebAssets.props",

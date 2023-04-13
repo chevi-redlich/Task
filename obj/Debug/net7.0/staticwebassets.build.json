@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lstX614sud+hWWcZyRnVQyrstJk0A56O+Zb9KyK4xII=",
+  "Hash": "2qczaHcubU3QpZJJSv+n8HoCPVOEDZ4AG5GdjZI2buA=",
   "Source": "Tasks",
   "BasePath": "_content/Tasks",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\admin.js",
+      "SourceId": "Tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
+      "BasePath": "_content/Tasks",
+      "RelativePath": "admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin.js"
+    },
     {
       "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\fonts\\AmaticSC-Bold.ttf",
       "SourceId": "Tasks",
@@ -102,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\logIn.js",
+      "SourceId": "Tasks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
+      "BasePath": "_content/Tasks",
+      "RelativePath": "logIn.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logIn.js"
+    },
+    {
       "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.css",
       "SourceId": "Tasks",
       "SourceType": "Discovered",
@@ -119,12 +153,12 @@
       "OriginalItemSpec": "wwwroot\\site.css"
     },
     {
-      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\site.js",
+      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\user.js",
       "SourceId": "Tasks",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
       "BasePath": "_content/Tasks",
-      "RelativePath": "site.js",
+      "RelativePath": "user.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,24 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\users.js",
-      "SourceId": "Tasks",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\This_user\\Desktop\\core\\2\\Tasks\\wwwroot\\",
-      "BasePath": "_content/Tasks",
-      "RelativePath": "users.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\users.js"
+      "OriginalItemSpec": "wwwroot\\user.js"
     }
   ]
 }

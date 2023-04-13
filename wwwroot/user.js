@@ -1,27 +1,34 @@
-const uriTask = '/task';
+const urlTask = '/task';
 let tasks = [];
-const token= localStorage.getItem('token');
-alert(token)
-function getItems() {   
-    fetch(uriTask)
-        .then(response => response.json())
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
+const token= sessionStorage.getItem('token');
+
+function getItems() {  
+        fetch(urlTask, {
+    method: 'GET',
+    headers: {
+        'Authorization': `Bearer ${token}`
+    }
+    })
+    .then(response => response.json())
+    .then(data =>_displayItems(data) )
+    .catch(error => console.error(error));
+    
+
 }
 
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
-
     const item = {
         isDone: false,
         name: addNameTextbox.value.trim()
     };
 
-    fetch(uriTask, {
+    fetch(urlTask, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
             },
             body: JSON.stringify(item)
         })
@@ -34,8 +41,9 @@ function addItem() {
 }
 
 function deleteItem(id) {
-    fetch(`${uriTask}/${id}`, {
-            method: 'DELETE'
+    fetch(`${urlTask}/${id}`, {
+            method: 'DELETE',
+            headers:{'Authorization': `Bearer ${token}`}
         })
         .then(() => getItems())
         .catch(error => console.error('Unable to delete item.', error));
@@ -58,11 +66,12 @@ function updateItem() {
         name: document.getElementById('edit-name').value.trim()
     };
 
-    fetch(`${uriTask}/${itemId}`, {
+    fetch(`${urlTask}/${itemId}`, {
             method: 'PUT',
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
             },
             body: JSON.stringify(item)
         })
@@ -87,7 +96,6 @@ function _displayCount(itemCount) {
 function _displayItems(data) {
     const tBody = document.getElementById('tasks');
     tBody.innerHTML = '';
-
     _displayCount(data.length);
 
     const button = document.createElement('button');

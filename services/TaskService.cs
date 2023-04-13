@@ -17,7 +17,6 @@ namespace Tasks.Services
         {
             this.webHost = webHost;
             this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "tasks.json");
-            //this.filePath = webHost.ContentRootPath+@"/Data/Pizza.json";
             using (var jsonFile = File.OpenText(filePath))
             {
                 tasks = JsonSerializer.Deserialize<List<Task>>(jsonFile.ReadToEnd(),
@@ -42,7 +41,7 @@ namespace Tasks.Services
             }
             return tasksForUser;
         } 
-        public  Task Get(int id)
+        public  Task? Get(int id )
         {
             var task = tasks.FirstOrDefault(t => t.Id == id);
             if (task == null)

@@ -25,12 +25,11 @@ public class UserService:IuserInterfac {
         }
     }
     public User Login(User user) {
-        User userExist=null;
-        
+        User? userExist =null;
         foreach (User item in users)
-        {
+        {  
             if(item.Equals(user)){
-                userExist=user;
+                userExist=item;
             }  
         }
         return userExist;

@@ -29,16 +29,15 @@ namespace Tasks.Controllers
                 return Unauthorized();
             }
             var claims = new List<Claim>();
-            if(user.isAdmin) {
+            if(userExist.isAdmin) {
                 claims.Add(new Claim("type", "Admin"));
             }
             else {
                 claims.Add(new Claim("type", "User"));
             }
-            claims.Add(new Claim("id",user.Id.ToString()));
-            claims.Add(new Claim("name", user.Name.ToString()));
+            claims.Add(new Claim("id",userExist.Id.ToString()));
+            claims.Add(new Claim("name", userExist.Name.ToString()));
             var token = UserTokenService.GetToken(claims);
-
             return new OkObjectResult(UserTokenService.WriteToken(token));
         }
         

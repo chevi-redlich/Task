@@ -1,3 +1,4 @@
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Tasks.Interface;
@@ -15,7 +16,7 @@ namespace Tasks.Controllers;
         [Authorize(Policy = "User")]
         public IEnumerable<Task> Get()
         {
-            string token=Request.Headers.Authorization;
+            string? token=Request.Headers.Authorization;
             return TaskService.GetAll(token);
         }
 
@@ -33,6 +34,11 @@ namespace Tasks.Controllers;
         [Authorize(Policy = "User")]
         public ActionResult Post(Task task)
         {
+            string? tokenStr = Request.Headers.Authorization;
+            string newToken = tokenStr.Split(' ')[1];
+            var token = new JwtSecurityToken(jwtEncodedString: newToken);
+            string id = token.Claims.First(c => c.Type == "id").Value;
+            task.userId=int.Parse(id);
             TaskService.Add(task);
             return CreatedAtAction(nameof(Post), new { id = task.Id }, task);
         }
