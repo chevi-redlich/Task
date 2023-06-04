@@ -23,12 +23,15 @@ function login(userName, password) {
             },
             body: JSON.stringify(user)
         })
-        .then( response=>response.text())
+        .then( response=>response.json())
         .then((data) => {
-            token=data.replace(/"/g, '');
+            token=data.token.replace(/"/g, '');
+            if(data.isAdmin)
+                window.location.href = "html/admin.html";
+            else
+               window.location.href = "html/user.html";
             sessionStorage.setItem('token', token);
-            window.location.href = "html/admin.html";
         })
-        .catch(error => console.error('Unable to add item.', error));
+        .catch(alert("אתה לא רשום במערכת"));
 
 }

@@ -38,7 +38,11 @@ namespace Tasks.Controllers
             claims.Add(new Claim("id",userExist.Id.ToString()));
             claims.Add(new Claim("name", userExist.Name.ToString()));
             var token = UserTokenService.GetToken(claims);
-            return new OkObjectResult(UserTokenService.WriteToken(token));
+            return new OkObjectResult(new {
+                token=UserTokenService.WriteToken(token),
+                isAdmin=userExist.isAdmin
+            });
+            
         }
         
         [HttpGet]

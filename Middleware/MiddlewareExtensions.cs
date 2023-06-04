@@ -8,7 +8,6 @@ public static class MiddlewareExtensions
     )
     {
         return app.UseMiddleware<LogMiddleware>();
-
     }
 
 
